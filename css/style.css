@@ -1,0 +1,54 @@
+p {
+    color: red
+}
+
+h1 {
+    background-color: aquamarine;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#myId {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+#borderTall {
+    border: 5px dashed red
+}
+
+.removeStyle{
+    text-decoration: none;
+}
+
+img:hover{
+    height: 200px;
+    width: 200px;
+    transition: 2s all;
+}
+
+#enviar{
+    background-color: blue;
+    bottom: 1px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+    transition: 2s all;
+}
+
+#enviar:hover{
+    background-color: aqua;
+    color: black;
+}
+
+#enviar::after{
+    content: "enviar";
+}
+
+#enviar:hover::after{
+    width:  50px;
+    content: "sai de cima de mim ";
+}
