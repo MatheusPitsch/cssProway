@@ -1,0 +1,27 @@
+h1 img {
+    border-radius: 100px;
+}
+
+header span {
+    height: 100px;
+    vertical-align: 70px;
+}
+
+.topico {
+    margin: 20px 0px 20px 0px;
+    color: red;
+}
+
+.dados {
+    margin: 20px 0px 20px 0px;
+    color: black;
+}
+
+.campo {
+    font-weight: bold;
+}
+
+.valor {
+    margin-left: 5px;
+    font-style: italic;
+}

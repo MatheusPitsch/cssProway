@@ -1,0 +1,27 @@
+main {
+    height: 180px;
+}
+
+.fotoPerfil {
+    display: inline;
+    height: 100px;
+}
+
+.nome {
+    position: absolute;
+    margin-left: 50px;
+    font-weight: bold;
+    vertical-align: 150px;
+}
+
+.cargo {
+    margin-left: 50px;
+    display: inline;
+    vertical-align: 80px;
+    font-style: italic;
+}
+
+.icons img {
+    height: 40px;
+    width: 40px;
+}
